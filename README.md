@@ -14,7 +14,7 @@ REST API untuk manajemen todo list, dibangun dengan ASP.NET Core 8.
 3. Jalankan: Update-Database di Package Manager Console
 
 ## Endpoint utama
-POST /api/auth/register - Daftar akun baru
-POST /api/auth/login    - Login dan dapat JWT token
-GET  /api/todo          - Ambil semua todo (butuh token)
-POST /api/todo          - Buat todo baru (butuh token)
+1. POST /api/auth/register - Daftar akun baru
+2. POST /api/auth/login    - Login dan dapat JWT token
+3. GET  /api/todo          - Ambil semua todo (butuh token)
+4. POST /api/todo          - Buat todo baru (butuh token)
