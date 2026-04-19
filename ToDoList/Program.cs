@@ -20,8 +20,6 @@ builder.Services.AddSwaggerGen(options =>
         Title = "Todo API",
         Version = "v1"
     });
-
-    // 🔥 Tambahkan ini
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
